@@ -1,0 +1,49 @@
+<div class="homeimage"></div>
+<h1>Current Musicians</h1>
+<table class="table table-bordered table-striped">
+    
+    <thead>
+        
+        <tr>
+            <th>First Name</th>
+            <th>Last Name</th>
+            <th>Instruments Played</th>
+            <th>Years of Experience</th>
+            <th>City</th>
+            <th>State</th>
+            <th>Zip</th>
+        </tr>
+    </thead>
+    <tbody>
+        <tr ng-repeat="musician in controller.musicians">
+
+            <td>
+                <a ui-sref="about({id: musician.id})">
+
+                    {{musician.firstName}}
+                </a>
+            </td>
+            <td>
+
+                {{musician.lastName}}
+            </td>
+            <td>
+                {{musician.instrumentsPlayed}}
+            </td>
+            <td>
+                {{musician.yearsOfExperience}}
+            </td>
+            <td>
+                {{musician.city}}
+            </td>
+            <td>
+                {{musician.state}}
+            </td>
+            <td>
+                {{musician.zipCode}}
+            </td>
+        </tr>
+
+    </tbody>
+
+</table>

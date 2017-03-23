@@ -1,0 +1,29 @@
+﻿<div style="text-align:justify; vertical-align:central">
+<form ng-submit ="controller.addMusician()">
+
+    <label>First Name</label><br />
+    <input type="text" ng-model="controller.musician.firstName" /> <br />
+
+    <label> Last Name</label><br />
+    <input type="text"  ng-model="controller.musician.lastName" /><br />
+
+    <label>What Instruments Do You Play?</label><br />
+    <input type="text" ng-model="controller.musician.instrumentsPlayed" /><br />
+
+    <label>How Many Years Have You Played?</label><br />
+    <input type="text" ng-model="controller.musician.yearsOfExperience" /><br />
+
+    <label>What City do You Live In?</label><br />
+    <input type="text" ng-model="controller.musician.city" /><br />
+
+    <label>What State do You Live In?</label><br />
+    <input type="text" ng-model="controller.musician.state"/><br />
+
+    <label>What is Your Zip Code?</label><br />
+    <input type="text" ng-model="controller.musician.zipCode" /><br />
+
+    <input type="Submit" class="btn btn-primary" value="Add Musician" />
+
+
+</form>
+</div>

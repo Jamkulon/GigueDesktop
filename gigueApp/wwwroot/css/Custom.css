@@ -1,0 +1,68 @@
+﻿body {
+    background-color: #000000;
+    background-image: url('../images/backgroundchanged.jpg');
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: center;
+}
+
+
+h1 {
+    color: #ff6a00;
+}
+
+th {
+    color: #ffffff;
+    text-align: center;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+td {
+    color:#000000;
+    text-align: center;
+    font-size: x-large;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+    td:hover {
+        background-color: #808080;
+    }
+
+label {
+    color: #ff6a00;
+    font-size:large;
+    
+}
+
+input[type=text]:focus {
+    background-color: aquamarine;
+}
+
+.topnav {
+    background-color: #b200ff;
+    overflow: hidden;
+    border: thin;
+}
+
+    .topnav a {
+        float: left;
+        display: block;
+        color: #f2f2f2;
+        text-align: center;
+        padding: 14px 16px;
+        text-decoration: none;
+        font-size: 17px;
+        border-color: black;
+        border-right: 1px solid;
+    }
+
+        .topnav a:hover {
+            background-color: #ddd;
+            color: black;
+        }
+
+
+        .topnav a.active {
+            background-color: #4CAF50;
+            color: white;
+        }
